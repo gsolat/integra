@@ -1,0 +1,119 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    background-color: #202528;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 100px;
+    color: #b3b6af;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+.logo img {
+    max-width: 450px;
+    margin: 100px auto;
+}
+.item-1 {
+    height: 350px;
+    background-image: url('../img/planta-copy.jpg');
+    background-size: auto;
+    background-color: #b1b1b1;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    border-radius: 3px;
+}
+.item-2 {
+    height: 350px;
+    background-image: url('../img/bomba-copy.jpg');
+    background-size: auto;
+    background-color: #a9a9a9;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    border-radius: 3px;
+}
+.item-3 {
+    height: 350px;
+    background-image: url('../img/pala-copy.jpg');
+    background-size: cover;
+    background-color: #fdfdfd;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    border-radius: 3px;
+}
+.item-4 {
+    height: 350px;
+    background-image: url('../img/solar-copy.jpg');
+    background-size: auto;
+    background-color: #fdfdfd;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    border-radius: 3px;
+}
+.business-lines h1 {
+    margin-top: 150px;
+    text-shadow: 1px 1px 10px #202528;
+}
+.contact {
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.contact a {
+    color: #fff;
+}
+
+.contact a:hover {
+    color: #00cccc;
+    text-decoration: none;
+    -webkit-transition-duration: 400s; /* Safari */
+    transition-duration: 400ms;
+}
+/*.contact a {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid #00cccc;
+    color: #00cccc;
+    font-size: 1.150em;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 2px;
+    -webkit-transition-duration: 400s;
+    transition-duration: 400ms;
+}
+
+.contact a:hover {
+    padding: 10px 15px;
+    border: 1px solid #494e50;
+    background-color: #494e50;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 2px;
+    -webkit-transition-duration: 400s;
+    transition-duration: 400ms;
+}*/
