@@ -22,7 +22,6 @@ h1 {
 }
 
 p {
-    margin-bottom: 100px;
     color: #b3b6af;
     font-size: 1em;
     font-weight: 200;
@@ -93,20 +92,32 @@ p {
 
 .contact {
     margin-bottom: 50px;
+    font-size: 1em;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
     color: #fff;
 }
-
 .contact a {
-    color: #fff;
-}
-
-.contact a:hover {
     color: #00cccc;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 5px 15px 8px 15px;
+    letter-spacing: 1px;
+    border: 1px solid #00cccc;
+    -webkit-transition-duration: 400s; /* Safari */
+    transition-duration: 400ms;
+}
+.contact a:hover {
+    border: 1px solid #00cccc;
+    background-color: #00cccc;
+    color: #202528;
+    font-weight: 400;
     text-decoration: none;
     -webkit-transition-duration: 400s; /* Safari */
     transition-duration: 400ms;
+}
+.contact p {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 /*.contact a {
     padding: 10px 15px;
